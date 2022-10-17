@@ -32,25 +32,20 @@
         android:id="@+id/textView15"
         android:layout_width="121dp"
         android:layout_height="49dp"
-        android:layout_above="@+id/editTextTextPersonName6"
-        android:layout_alignParentStart="true"
+
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="155dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="41dp"
-        android:backgroundTint="#2196F3"
-        android:text=" Cadastro"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="40dp"
+        android:text="Cadastro"
         android:textAlignment="center"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:drawableTint="#761A1A"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/name"
         android:layout_width="226dp"
         android:layout_height="57dp"
         android:layout_alignParentStart="true"
@@ -68,7 +63,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/email"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -100,7 +95,7 @@
         app:iconTint="#9A2424" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/wordpass"
         android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
